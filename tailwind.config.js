@@ -16,8 +16,6 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-       'washiBanner': "url('../src/images/washi banner.jpeg')",
-       'dottedBanner': "url('../src/images/dottedbanner.jpg')",
       })
     }
   },

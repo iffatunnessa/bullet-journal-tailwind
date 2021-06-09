@@ -1,8 +1,8 @@
 import './App.css';
 import Banner from './Component/Banner/Banner';
+import Footer from './Component/Footer/Footer';
 import Home from './Component/Home/Home';
 import Projects from './Component/Projects/Projects';
-import Story from './Component/Story/Story';
 import Youtube from './Component/Youtube/Youtube';
 
 function App() {
@@ -11,6 +11,8 @@ function App() {
       <Banner />
       <Home />
       <Projects />
+      <Youtube />
+      <Footer />
     </>
   );
 }
